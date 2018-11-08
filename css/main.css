@@ -14,6 +14,19 @@
     float:right;
 }
 
+.searchbutton{
+   margin-top: 30px;
+   background-color: whitesmoke;
+   color: gray;
+   border: none;
+}
+
+.searchbutton:hover{
+    border: 1px solid gray;
+    color: black;
+    border-radius: 4px;
+}
+
 
 #signin {
     background-color: #4285f4;
@@ -27,9 +40,9 @@ body {
 }
 
 button{
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
-    padding: 12px 20px;
+    padding: 10px 15px;
     border-radius: 6px;
 }
 input {
